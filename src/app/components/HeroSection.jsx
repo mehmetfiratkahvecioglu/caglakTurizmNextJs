@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const HeroSection = () => {
-  const phoneNumber = "+905067770735"; // Değiştirin: Telefon numarası uluslararası formatta olmalıdır.
-  const message = "Merhaba, sizinle iletişime geçmek istiyorum!"; // Değiştirin: Mesajınızı buraya yazın.
+  const phoneNumber = "+905070657735"; // Değiştirin: Telefon numarası uluslararası formatta olmalıdır.
+  const message = "Hi i need transfer"; // Değiştirin: Mesajınızı buraya yazın.
 
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
     message
@@ -28,7 +28,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "24/7 Transportation",
+                "24/7 Transfer",
                 1000,
                 "For Travel",
                 1000,
@@ -63,7 +63,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-4 place-self-center mt-[10vh] lg:mt-4"
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
             <Image
